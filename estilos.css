@@ -1,0 +1,221 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Varibales */
+
+:root {
+    --primario: #980808;
+    --secundario: #450202;
+    --negro: #161616;
+    --blanco: #eeeeee;
+    --botones: #584C4C;
+}
+
+body {
+    background-color: var(--negro);
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    background-color: var(--primario);
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--blanco);
+}
+
+h1 {
+    text-align: center;
+    color: var(--primario);
+    margin-top: 2rem;
+    font-size: 4rem;
+}
+
+.crearIniciar {
+    margin-right: 3rem;
+}
+
+.crearIniciar a {
+    text-decoration: none;
+    color: var(--blanco);
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+.logo {
+    margin-left: 5rem;
+    font-size: 4rem;
+}
+
+section {
+    background-color: #cccaca;
+    width: 50%;
+    height: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    color: var(--negro);
+}
+
+.registro {
+    margin: auto;
+    width: 100%;
+    height: 15rem;
+}
+
+.labels {
+    width: 100%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5rem;
+    margin-bottom: 3rem;
+}
+
+.registro input {
+    width: 60%;
+    margin-right: 100px;
+    padding: .5rem;
+}
+
+.botones {
+    margin-top: 12rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.botones a {
+    width: 19rem;
+    background-color: var(--secundario);
+    text-decoration: none;
+    text-align: center;
+    padding: .5rem 1rem;
+    color: var(--blanco);
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+footer {
+    width: 100%;
+    height: 13rem;
+    color: var(--blanco);
+    text-align: center;
+    background-color: var(--secundario);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+footer p {
+    font-size: 2em;
+}
+
+label {
+    font-size: 2rem;
+}
+
+@media screen and (max-width: 1040px) {
+    .usuario,
+    .apodo,
+    .contrasena {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: auto;
+    }
+    section {
+        width: 100%;
+    }
+    .registro input {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .botones {
+        flex-direction: column;
+    }
+    .botones a {
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+
+
+/* Mensajes */
+
+section {
+    background-color: #cccaca;
+    width: 50%;
+    height: auto;
+    margin: 50px auto;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.nombreAnonimo {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nombreAnonimo input {
+    width: 50%;
+    height: 100%;
+}
+
+.mensaje {
+    margin-top: 20px;
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 20px;
+    overflow-y: auto;
+    resize: none;
+}
+
+input,
+textarea {
+    background-color: rgb(30, 30, 30);
+    color: #fff;
+}
+
+
+/* Bandeja */
+
+article a {
+    text-decoration: none;
+    color: var(--blanco);
+    margin-right: 20px;
+}
+
+article p {
+    font-size: 2.4rem;
+}
+
+article {
+    background-color: beige;
+    margin: 20px 20px 0 20px;
+    height: auto;
+    width: 80%;
+    padding: 2rem;
+}

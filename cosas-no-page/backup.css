@@ -1,0 +1,21 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+
+/* Varibales */
+
+:root {
+    --primario: #8E0000;
+    --secundario: #410202;
+    --negro: #000000;
+    --blanco: #f9D9D9;
+    --botones: #584C4C;
+}
