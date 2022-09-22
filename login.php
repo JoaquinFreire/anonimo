@@ -2,7 +2,7 @@
 
 ?>
 <?php include "includes/header.php" ?>
-<h1>Iniciar Sesión bien</h1>
+<h1>Iniciar Sesión mal</h1>
 <section>
 
     <form action="" method="POST">
